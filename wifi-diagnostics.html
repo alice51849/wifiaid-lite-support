@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wi-Fi Diagnostics on iPhone: Is It the Router, DNS or the Website?</title>
+<meta name="description" content="Internet down and everyone blames the router? Run a network test on iPhone that checks Wi-Fi, DNS, TCP, TLS, latency and stability, and names the most likely cause before you call support.">
+<link rel="canonical" href="https://open.cait518.cc/wifiaid-lite-support/wifi-diagnostics.html">
+<meta property="og:title" content="Wi-Fi Diagnostics on iPhone: Is It the Router, DNS or the Website?">
+<meta property="og:description" content="Internet down and everyone blames the router? Run a network test on iPhone that checks Wi-Fi, DNS, TCP, TLS, latency and stability, and names the most likely cause before you call support.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://open.cait518.cc/wifiaid-lite-support/wifi-diagnostics.html">
+<meta name="apple-itunes-app" content="app-id=6793414462">
+<style>
+:root{color-scheme:light dark;--bg:#fbfaf7;--fg:#1d1d1f;--muted:#5f6368;--line:rgba(128,128,128,.22);--accent:#2f6fde;--card:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--fg:#ececf0;--muted:#a3a3ab;--card:#1d1d21;--accent:#7aa7ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","PingFang TC","Noto Sans CJK TC","Apple SD Gothic Neo",Roboto,sans-serif}
+a{color:var(--accent)}
+.helpdoc{max-width:820px;margin:0 auto;padding:28px 16px 64px}
+.helpdoc h1{font-size:clamp(26px,4.4vw,36px);line-height:1.3;margin:.2em 0 .4em}
+.helpdoc h2{font-size:clamp(19px,2.8vw,24px);margin:2.1em 0 .6em;scroll-margin-top:16px}
+.helpdoc h3{font-size:17px;margin:1.5em 0 .35em}
+.helpdoc .lede{font-size:17.5px;color:var(--muted);margin:0 0 1.4em}
+.helpdoc .hd-nav{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:0 0 20px}
+.helpdoc .hd-toc{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;list-style:none}
+.helpdoc .hd-toc a{display:inline-block;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;text-decoration:none}
+.helpdoc .tbl{overflow-x:auto;margin:.8em 0}
+.helpdoc table{width:100%;border-collapse:collapse;font-size:15px}
+.helpdoc th,.helpdoc td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.helpdoc th{font-weight:650;white-space:nowrap}
+.helpdoc .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1em 0}
+.helpdoc .cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:2.4em 0 1em}
+.helpdoc .cta a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
+.helpdoc .hd-q{margin:1.4em 0 .3em;font-weight:650;font-size:16.5px}
+.helpdoc .hd-a{margin:0 0 .2em}
+.helpdoc .hd-note{font-size:13px;color:var(--muted);margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px}
+.helpdoc ul,.helpdoc ol{padding-left:1.25em}
+.helpdoc li{margin:.3em 0}
+@media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Wi-Fi Diagnostics on iPhone: Is It the Router, DNS or the Website?", "description": "Internet down and everyone blames the router? Run a network test on iPhone that checks Wi-Fi, DNS, TCP, TLS, latency and stability, and names the most likely cause before you call support.", "inLanguage": "en", "mainEntityOfPage": "https://open.cait518.cc/wifiaid-lite-support/wifi-diagnostics.html", "dateModified": "2026-10-20", "author": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "publisher": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "about": {"@type": "SoftwareApplication", "name": "WiFi Aid Lite: Network Check", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "url": "https://apps.apple.com/app/id6793414462"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "My iPhone is on Wi-Fi but nothing loads. What's wrong?", "acceptedAnswer": {"@type": "Answer", "text": "Common causes are DNS failures, TLS failures or the website itself. Run a Check in WiFi Aid Lite to see DNS, TCP and TLS results and which hop is failing."}}, {"@type": "Question", "name": "How do I test an internet connection that keeps dropping?", "acceptedAnswer": {"@type": "Answer", "text": "Use Deep Check to collect more stability samples and see latency variation, then compare runs in your check history."}}, {"@type": "Question", "name": "Is it one website or my whole network?", "acceptedAnswer": {"@type": "Answer", "text": "Use Check a Website to test that site against the wider internet."}}, {"@type": "Question", "name": "Is WiFi Aid Lite a speed test app?", "acceptedAnswer": {"@type": "Answer", "text": "No. It focuses on finding the cause of a problem through DNS, TCP, TLS, TTFB, HTTP, latency and stability evidence."}}, {"@type": "Question", "name": "Do I have to pay to use it?", "acceptedAnswer": {"@type": "Answer", "text": "One complete check in total needs no purchase. An optional one-time in-app purchase unlocks unlimited checks; there is no subscription."}}, {"@type": "Question", "name": "Does it send my data anywhere?", "acceptedAnswer": {"@type": "Answer", "text": "No account, ads, analytics or tracking. Records are stored only on this device."}}]}</script>
+</head>
+<body>
+<p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">This site is run by Lumi Studio, the developer of the featured apps. The apps recommended here are our own.</p>
+<main class="helpdoc">
+<nav class="hd-nav"><a href="./">Support home</a><a href="help.html">Help &amp; FAQ</a><a href="https://apps.apple.com/us/app/id6793414462?pt=118326163&amp;ct=bm_wifiaidlite_us_seo&amp;mt=8">WiFi Aid Lite: Network Check</a><a href="https://play.google.com/store/apps/details?id=com.alice51849.WiFiAidLite&amp;referrer=utm_source%3Dbm_wifiaidlite_us_seo%26utm_campaign%3Dwifiaidlite" rel="noopener" data-ls-play="nav">Google Play</a></nav>
+<h1>Wi-Fi diagnostics on iPhone: find out where the connection is actually failing</h1>
+<p class="lede">When the internet is down, the router usually gets the blame. The real problem could be <strong>Wi-Fi</strong>, <strong>DNS</strong>, your <strong>internet provider</strong>, or just <strong>one website</strong>. This guide explains what a proper <strong>network test</strong> looks at, what each result means, and how <strong>WiFi Aid Lite</strong> runs <strong>Wi-Fi diagnostics</strong> in one tap and names the most likely cause before you call support.</p>
+<p><strong>On this page</strong></p>
+<ul class="hd-toc"><li><a href="#layers">Where a connection can break</a></li><li><a href="#steps">How to run a network test with WiFi Aid Lite</a></li><li><a href="#after">What to do with the result</a></li><li><a href="#buy">Privacy and purchase</a></li><li><a href="#faq">Frequently asked questions</a></li></ul>
+<h2 id="layers">Where a connection can break</h2>
+<p>Between your iPhone and a website there are several hops, and a failure at any of them just feels like "the internet is slow". Good diagnostics rule them out one at a time:</p><div class="tbl"><table><thead><tr><th>Check</th><th>What it tells you</th><th>Typical symptom when it fails</th></tr></thead><tbody><tr><td>DNS</td><td>Whether names resolve to IP addresses</td><td>Connected to Wi-Fi, but pages spin forever</td></tr><tr><td>TCP</td><td>Whether a connection to the server opens</td><td>Some apps fail, sometimes</td></tr><tr><td>TLS</td><td>Whether the secure connection completes</td><td>Pages stall halfway or show security errors</td></tr><tr><td>TTFB</td><td>How long the server takes to start responding</td><td>Every tap feels delayed</td></tr><tr><td>Stability</td><td>How much latency varies across samples</td><td>Looks connected, feels laggy</td></tr><tr><td>IPv4 / IPv6</td><td>Whether both address types work</td><td>Certain services fail more than others</td></tr></tbody></table></div>
+<h2 id="steps">How to run a network test with WiFi Aid Lite</h2>
+<ol><li><strong>Run a Check.</strong> One tap checks Wi-Fi, DNS and the wider internet.</li><li><strong>Read the evidence.</strong> DNS, TCP, TLS, TTFB, HTTP, Direct IP, IPv4 and IPv6 are listed item by item.</li><li><strong>Use Deep Check for flaky connections.</strong> It gathers more evidence and stability samples, so you can see when the connection looks unstable.</li><li><strong>Check a Website.</strong> Test one site to see whether the problem is that site or the wider internet.</li><li><strong>See the connected node.</strong> With precise location on, the app identifies this Wi-Fi and the current node.</li><li><strong>Keep a history.</strong> Private records are stored only on this device, so you can compare before and after.</li></ol>
+<h2 id="after">What to do with the result</h2>
+<ul><li><strong>Only one website fails:</strong> the problem is likely on that site; try later or from another network.</li><li><strong>DNS fails:</strong> look at DNS settings or the modem, and bring the check result when you contact your provider.</li><li><strong>High variation:</strong> run Deep Check in different rooms and at different times to find a pattern.</li><li><strong>Everything fails:</strong> the modem, router or provider is the likely culprit; your check history is useful evidence for support.</li></ul>
+<h2 id="buy">Privacy and purchase</h2>
+<div class="tbl"><table><thead><tr><th></th><th>WiFi Aid Lite</th></tr></thead><tbody><tr><td>Account, ads, analytics, tracking</td><td>None</td></tr><tr><td>Check history</td><td>Stored only on this device</td></tr><tr><td>Without a purchase</td><td>One complete check in total, with any tool</td></tr><tr><td>Optional one-time in-app purchase</td><td>Unlimited checks and the before/after comparison after a fix</td></tr><tr><td>Subscription</td><td>None</td></tr></tbody></table></div>
+<div class="cta">
+<p><strong>Want to do this on your iPhone?</strong> Next time the internet drops, run a one-tap check in WiFi Aid Lite and read the DNS, TCP, TLS and stability evidence before you call support.</p>
+<p><a class="btn" href="https://apps.apple.com/us/app/id6793414462?pt=118326163&amp;ct=bm_wifiaidlite_us_seo&amp;mt=8">View WiFi Aid Lite: Network Check on the App Store</a></p>
+<p><strong>On Android?</strong></p>
+<p><a class="btn" href="https://play.google.com/store/apps/details?id=com.alice51849.WiFiAidLite&amp;referrer=utm_source%3Dbm_wifiaidlite_us_seo%26utm_campaign%3Dwifiaidlite" rel="noopener" data-ls-play="cta">View WiFi Aid Lite: Network Check on Google Play</a></p>
+<p>Already using WiFi Aid Lite: Network Check? You can rate or review it on the App Store. <a href="https://apps.apple.com/app/id6793414462?action=write-review">Write a review</a></p>
+</div>
+<h2 id="faq">Frequently asked questions</h2>
+<p class="hd-q">My iPhone is on Wi-Fi but nothing loads. What&#x27;s wrong?</p>
+<p class="hd-a">Common causes are DNS failures, TLS failures or the website itself. Run a Check in WiFi Aid Lite to see DNS, TCP and TLS results and which hop is failing.</p>
+<p class="hd-q">How do I test an internet connection that keeps dropping?</p>
+<p class="hd-a">Use Deep Check to collect more stability samples and see latency variation, then compare runs in your check history.</p>
+<p class="hd-q">Is it one website or my whole network?</p>
+<p class="hd-a">Use Check a Website to test that site against the wider internet.</p>
+<p class="hd-q">Is WiFi Aid Lite a speed test app?</p>
+<p class="hd-a">No. It focuses on finding the cause of a problem through DNS, TCP, TLS, TTFB, HTTP, latency and stability evidence.</p>
+<p class="hd-q">Do I have to pay to use it?</p>
+<p class="hd-a">One complete check in total needs no purchase. An optional one-time in-app purchase unlocks unlimited checks; there is no subscription.</p>
+<p class="hd-q">Does it send my data anywhere?</p>
+<p class="hd-a">No account, ads, analytics or tracking. Records are stored only on this device.</p>
+
+<div class="box"><p>WiFi Aid Lite is an independent app and is not affiliated with Apple or any internet provider. Results point to the most likely cause based on the evidence collected; your provider or device maker has the final word on repairs.</p></div>
+
+<p class="hd-note">Written by the developer of WiFi Aid Lite: Network Check with AI assistance and checked against the app&#x27;s App Store listing. Last updated: 2026-10-20.</p>
+</main>
+</body>
+</html>
