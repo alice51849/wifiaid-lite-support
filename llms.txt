@@ -13,10 +13,5 @@
 - [Help, FAQ and troubleshooting](https://open.cait518.cc/wifiaid-lite-support/help.html)
 - [Support and contact](https://open.cait518.cc/wifiaid-lite-support/support.html)
 - [Privacy policy](https://open.cait518.cc/wifiaid-lite-support/privacy.html)
-- [What is it, who it is for, pricing and differences (en)](https://open.cait518.cc/wifiaid-lite-support/what-is-wifiaidlite.html)
-- [What is it, who it is for, pricing and differences (vi)](https://open.cait518.cc/wifiaid-lite-support/what-is-wifiaidlite.vi.html)
-- [What is it, who it is for, pricing and differences (ar-SA)](https://open.cait518.cc/wifiaid-lite-support/what-is-wifiaidlite.ar-SA.html)
-- [What is it, who it is for, pricing and differences (de-DE)](https://open.cait518.cc/wifiaid-lite-support/what-is-wifiaidlite.de-DE.html)
-- [Free first check vs. one-time unlock (en-US)](https://open.cait518.cc/wifiaid-lite-support/wifi-aid-lite-unlock.html)
 
 <!-- ls-llms: managed by support_network/gen_support_crosspromo.py -->
