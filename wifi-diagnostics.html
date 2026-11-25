@@ -31,15 +31,15 @@ a{color:var(--accent)}
 .helpdoc th{font-weight:650;white-space:nowrap}
 .helpdoc .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:1em 0}
 .helpdoc .cta{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:2.4em 0 1em}
-.helpdoc .cta a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
+.helpdoc .cta a.btn,.helpdoc .hd-cta-top a.btn{display:inline-block;margin:6px 0;padding:11px 20px;border-radius:999px;background:var(--accent);color:#fff;font-weight:650;text-decoration:none}
 .helpdoc .hd-q{margin:1.4em 0 .3em;font-weight:650;font-size:16.5px}
 .helpdoc .hd-a{margin:0 0 .2em}
 .helpdoc .hd-note{font-size:13px;color:var(--muted);margin-top:2.6em;border-top:1px solid var(--line);padding-top:14px}
 .helpdoc ul,.helpdoc ol{padding-left:1.25em}
 .helpdoc li{margin:.3em 0}
-@media print{.hd-nav,.cta,.hd-toc{display:none}body{background:#fff;color:#000}}
+@media print{.hd-nav,.cta,.hd-cta-top,.hd-toc{display:none}body{background:#fff;color:#000}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Wi-Fi Diagnostics on iPhone: Is It the Router, DNS or the Website?", "description": "Internet down and everyone blames the router? Run a network test on iPhone that checks Wi-Fi, DNS, TCP, TLS, latency and stability, and names the most likely cause before you call support.", "inLanguage": "en", "mainEntityOfPage": "https://open.cait518.cc/wifiaid-lite-support/wifi-diagnostics.html", "dateModified": "2026-10-20", "author": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "publisher": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "about": {"@type": "SoftwareApplication", "name": "WiFi Aid Lite: Network Check", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "url": "https://apps.apple.com/app/id6793414462"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Wi-Fi Diagnostics on iPhone: Is It the Router, DNS or the Website?", "description": "Internet down and everyone blames the router? Run a network test on iPhone that checks Wi-Fi, DNS, TCP, TLS, latency and stability, and names the most likely cause before you call support.", "inLanguage": "en", "mainEntityOfPage": "https://open.cait518.cc/wifiaid-lite-support/wifi-diagnostics.html", "dateModified": "2026-11-25", "author": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "publisher": {"@type": "Organization", "@id": "https://open.cait518.cc/ios-app-guide/#organization", "name": "Lumi Studio", "url": "https://open.cait518.cc/ios-app-guide/about.html"}, "about": {"@type": "SoftwareApplication", "name": "WiFi Aid Lite: Network Check", "operatingSystem": "iOS", "applicationCategory": "UtilitiesApplication", "url": "https://apps.apple.com/app/id6793414462"}}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "My iPhone is on Wi-Fi but nothing loads. What's wrong?", "acceptedAnswer": {"@type": "Answer", "text": "Common causes are DNS failures, TLS failures or the website itself. Run a Check in WiFi Aid Lite to see DNS, TCP and TLS results and which hop is failing."}}, {"@type": "Question", "name": "How do I test an internet connection that keeps dropping?", "acceptedAnswer": {"@type": "Answer", "text": "Use Deep Check to collect more stability samples and see latency variation, then compare runs in your check history."}}, {"@type": "Question", "name": "Is it one website or my whole network?", "acceptedAnswer": {"@type": "Answer", "text": "Use Check a Website to test that site against the wider internet."}}, {"@type": "Question", "name": "Is WiFi Aid Lite a speed test app?", "acceptedAnswer": {"@type": "Answer", "text": "No. It focuses on finding the cause of a problem through DNS, TCP, TLS, TTFB, HTTP, latency and stability evidence."}}, {"@type": "Question", "name": "Do I have to pay to use it?", "acceptedAnswer": {"@type": "Answer", "text": "One complete check in total needs no purchase. An optional one-time in-app purchase unlocks unlimited checks; there is no subscription."}}, {"@type": "Question", "name": "Does it send my data anywhere?", "acceptedAnswer": {"@type": "Answer", "text": "No account, ads, analytics or tracking. Records are stored only on this device."}}]}</script>
 <!-- ls-pwa:start -->
 <link rel="manifest" href="/wifiaid-lite-support/manifest.webmanifest">
@@ -55,6 +55,9 @@ a{color:var(--accent)}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="max-image-preview:large">
 <!-- ls-sharecard:end -->
+<!-- ls-clickbeacon:start -->
+<script>(function(){var E='https://office.cait518.cc/api/click';function h(e){try{var t=e.target,l=t&&t.closest&&t.closest('a[href]');if(!l||!navigator.sendBeacon)return;var u=new URL(l.href,location.href),s,k,c,q=u.searchParams;if(u.hostname==='apps.apple.com'){s='apple';k=(u.pathname.match(/\/id(\d+)/)||[])[1]||'';c=q.get('ct')||''}else if(u.hostname==='play.google.com'){s='play';var r=new URLSearchParams(q.get('referrer')||'');k=r.get('utm_campaign')||q.get('id')||'';c=r.get('utm_source')||''}else return;navigator.sendBeacon(E,JSON.stringify({p:location.pathname.slice(0,200),a:k.slice(0,100),ct:c.slice(0,64),s:s}))}catch(_){}}document.addEventListener('click',h,true);document.addEventListener('auxclick',h,true)})();</script>
+<!-- ls-clickbeacon:end -->
 </head>
 <body>
 <p class="first-party-disclosure" data-first-party-disclosure="banner" role="note" style="margin:0;padding:8px 16px;background:#f3f4f6;color:#1f2937;border-bottom:1px solid #d1d5db;font-size:13px;line-height:1.5;text-align:center">This site is run by Lumi Studio, the developer of the featured apps. The apps recommended here are our own.</p>
@@ -62,6 +65,7 @@ a{color:var(--accent)}
 <nav class="hd-nav"><a href="./">Support home</a><a href="help.html">Help &amp; FAQ</a><a href="https://apps.apple.com/us/app/id6793414462?pt=118326163&amp;ct=bm_wifiaidlite_us_seo&amp;mt=8">WiFi Aid Lite: Network Check</a><a href="https://play.google.com/store/apps/details?id=com.alice51849.WiFiAidLite&amp;referrer=utm_source%3Dbm_wifiaidlite_us_seo%26utm_campaign%3Dwifiaidlite" rel="noopener" data-ls-play="nav">Google Play</a></nav>
 <h1>Wi-Fi diagnostics on iPhone: find out where the connection is actually failing</h1>
 <p class="lede">When the internet is down, the router usually gets the blame. The real problem could be <strong>Wi-Fi</strong>, <strong>DNS</strong>, your <strong>internet provider</strong>, or just <strong>one website</strong>. This guide explains what a proper <strong>network test</strong> looks at, what each result means, and how <strong>WiFi Aid Lite</strong> runs <strong>Wi-Fi diagnostics</strong> in one tap and names the most likely cause before you call support.</p>
+<p class="hd-cta-top"><a class="btn" href="https://apps.apple.com/us/app/id6793414462?pt=118326163&amp;ct=bm_wifiaidlite_us_seo&amp;mt=8" rel="noopener">Download WiFi Aid Lite on the App Store</a> <a href="https://play.google.com/store/apps/details?id=com.alice51849.WiFiAidLite&amp;referrer=utm_source%3Dbm_wifiaidlite_us_seo%26utm_campaign%3Dwifiaidlite" rel="noopener" data-ls-play="cta">Android version on Google Play</a></p>
 <p><strong>On this page</strong></p>
 <ul class="hd-toc"><li><a href="#layers">Where a connection can break</a></li><li><a href="#steps">How to run a network test with WiFi Aid Lite</a></li><li><a href="#after">What to do with the result</a></li><li><a href="#buy">Privacy and purchase</a></li><li><a href="#faq">Frequently asked questions</a></li></ul>
 <h2 id="layers">Where a connection can break</h2>
@@ -95,7 +99,7 @@ a{color:var(--accent)}
 
 <div class="box"><p>WiFi Aid Lite is an independent app and is not affiliated with Apple or any internet provider. Results point to the most likely cause based on the evidence collected; your provider or device maker has the final word on repairs.</p></div>
 
-<p class="hd-note">Written by the developer of WiFi Aid Lite: Network Check with AI assistance and checked against the app&#x27;s App Store listing. Last updated: 2026-10-20.</p>
+<p class="hd-note">Written by the developer of WiFi Aid Lite: Network Check with AI assistance and checked against the app&#x27;s App Store listing. Last updated: 2026-11-25.</p>
 </main>
 </body>
 </html>
